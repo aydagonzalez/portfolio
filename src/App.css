@@ -2,6 +2,53 @@
   text-align: center;
 }
 
+/* ---------------------NAV BAR----------------- */
+header {
+  display: flex;
+  height: 2rem;
+  background-color: #61dafb;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.nav-div {
+  background-color: var(--tan-1);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* ---------------------PROGILE IMAGE----------------- */
+
+section img {
+  border-radius: 50%;
+}
+
+/* ---------------------ABOUT PAGE---------------- */
+
+.about-section {
+  background-color: aliceblue;
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.p-width {
+  width: 80vmin;
+}
+/* ---------------------TECHNOLOGIES----------------- */
+
+
+
+
+/* ---------------------PROGILE IMAGE----------------- */
+
+/* .App {
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +82,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

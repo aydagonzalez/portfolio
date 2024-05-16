@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* CSS Custom Properties */
+:root {
+  --white: #FFFFFF;
+  --tan-1: #FBF9F6;
+  --tan-2: #E7E2DD;
+  --tan-3: #E2D9D1;
+  --tan-4: #9aadbf88;
+  --orange: #f63500;
+  --text-light: #968c84;
+  --text-dark: #615954;
+  --purple-tint: #ccc1ce;
+  --cadet-grey :#9aadbf;
+  --cadet-grey-rgba: #97CAD114; 
+
+}
