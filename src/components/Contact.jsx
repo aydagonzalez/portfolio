@@ -1,17 +1,30 @@
 import React from 'react';
 
-function Contact() {
+
+export default function Contact() {
     return (
         <section>
-            <h2>Contact</h2>
-            <form>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Your Email" />
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
+            <h1 className='name-header'>Looking Forward to Connecting</h1>
+
+
+
+            <div className='contact-links'>
+                <a href="https://www.linkedin.com/in/aydagonzalez15">
+                    <img src="/LI-In-Bug.png" alt="LinkedIn" className='social-icon-contact' />
+                    linkedin.com/in/aydagonzalez15
+                </a>
+                <a href="https://github.com/aydagonzalez15">
+                    <img src="/github-mark.png" alt="GitHub" className='social-icon-contact' />
+                    github.com/aydagonzalez15
+                </a>
+                <a href="mailto:aydagonzalezDev@gmail.com">
+                    <img src="/mail-icon.png" alt="Email" className='social-icon-contact' /> 
+                    aydagonzalezDev@gmail.com
+                </a>
+
+            </div>
+
         </section>
     );
 }
 
-export default Contact;

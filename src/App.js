@@ -1,22 +1,28 @@
-import logo from './logo.svg';
 import React from 'react';
-import Header from './components/Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/NavBar';
 import About from './components/About';
 import Technology from './components/Technology';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import './App.css'; // Assuming you have an App.css for styles
+import Experience from './components/Experience';
+import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <Technology />
-      <Projects />
-      <Contact />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<About />} />
+            {/* <Route path="/technology" element={<Technology />} /> */}
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
-
-export default App;
