@@ -34,8 +34,8 @@ export default function Projects() {
                             <img src="./portfolio/html.png" alt="HTML logo" className="tech-logo2" /> HTML
                         </div>
                         <div className="tech-item2">
-                <img src="./portfolio/material-ui-icon.png" alt="Materialize-UI logo" className="tech-logo2" /> Materialize UI
-            </div>
+                            <img src="./portfolio/node3.png" alt="Node.js logo" className="tech-logo2" /> Node
+                        </div>
                     </div>
 
                     <div className="button-container">

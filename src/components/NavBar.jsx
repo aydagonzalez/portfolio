@@ -18,7 +18,7 @@ export default function NavBar() {
                 </NavLink>
 
                 <button className="menu-button" onClick={toggleMenu}>
-                    <img className="menu-button-icon" src="./portfolio/menu-bar.png" alt="" />
+                    <img className="menu-button-icon" src="./menu-bar.png" alt="menu" />
                 </button>
             </div>
             <nav className={`nav ${isOpen ? "open" : ""}`}>
