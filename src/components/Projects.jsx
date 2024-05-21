@@ -7,34 +7,34 @@ export default function Projects() {
             <section className="projects-section">
                 <div className="project-card">
                     <h2>Date Night App</h2>
-                    <img src="./date-night-app.png" alt="date-night app snapshot" />
+                    <img src="./portfolio/date-night-app.png" alt="date-night app snapshot" />
                     <p>Engineered a full-stack social activities hub application that integrates Yelp and Ticketmaster APIs for dynamic activity planning using MongoDB, Express, React, and Node (MERN stack).</p>
 
 
                     <div className="tech-container">
                     <div className="tech-item2">
-                <img src="./logo512.png" alt="React logo" className="tech-logo2" /> React
+                <img src="./portfolio/logo512.png" alt="React logo" className="tech-logo2" /> React
             </div>
                         <div className="tech-item2">
-                            <img src="./js.png" alt="JavaScript logo" className="tech-logo2" /> JavaScript
+                            <img src="./portfolio/js.png" alt="JavaScript logo" className="tech-logo2" /> JavaScript
                         </div>
                         <div className="tech-item2">
-                            <img src="./express.png" alt="Express logo" className="tech-logo2" /> Express
+                            <img src="./portfolio/express.png" alt="Express logo" className="tech-logo2" /> Express
                         </div>
                         <div className="tech-item2">
-                            <img src="./mongodb.png" alt="MongoDB logo" className="tech-logo2" /> MongoDB
+                            <img src="./portfolio/mongodb.png" alt="MongoDB logo" className="tech-logo2" /> MongoDB
                         </div>
                         <div className="tech-item2">
-                            <img src="./mongoose.png" alt="Mongoose logo" className="tech-logo2" /> Mongoose
+                            <img src="./portfolio/mongoose.png" alt="Mongoose logo" className="tech-logo2" /> Mongoose
                         </div>
                         <div className="tech-item2">
-                            <img src="./css.png" alt="CSS logo" className="tech-logo2" /> CSS
+                            <img src="./portfolio/css.png" alt="CSS logo" className="tech-logo2" /> CSS
                         </div>
                         <div className="tech-item2">
-                            <img src="./html.png" alt="HTML logo" className="tech-logo2" /> HTML
+                            <img src="./portfolio/html.png" alt="HTML logo" className="tech-logo2" /> HTML
                         </div>
                         <div className="tech-item2">
-                <img src="./material-ui-icon.png" alt="Materialize-UI logo" className="tech-logo2" /> Materialize UI
+                <img src="./portfolio/material-ui-icon.png" alt="Materialize-UI logo" className="tech-logo2" /> Materialize UI
             </div>
                     </div>
 
@@ -46,27 +46,27 @@ export default function Projects() {
 
                 <div className="project-card">
                     <h2>Connection Farmer</h2>
-                    <img src="./connection-farmer.png" alt="connection farmer app snapshot" />
+                    <img src="./portfolio/connection-farmer.png" alt="connection farmer app snapshot" />
                     <p>Collaborated with a team of 3 developers to create a job and event tracker application for users to track job applications and related events. Developed an API using Django to enable reliable access, storage (PostgreSQL), and manipulation of user profile data.</p>
 
                     <div className="tech-container">
                         <div className="tech-item2">
-                            <img src="./python.png" alt="Python logo" className="tech-logo2" /> Python
+                            <img src="./portfolio/python.png" alt="Python logo" className="tech-logo2" /> Python
                         </div>
                         <div className="tech-item2">
-                            <img src="./django-green.png" alt="Django logo" className="tech-logo2" /> Django
+                            <img src="./portfolio/django-green.png" alt="Django logo" className="tech-logo2" /> Django
                         </div>
                         <div className="tech-item2">
-                            <img src="./psql.png" alt="PostgreSQL logo" className="tech-logo2" /> PostgreSQL
+                            <img src="./portfolio/psql.png" alt="PostgreSQL logo" className="tech-logo2" /> PostgreSQL
                         </div>
                         <div className="tech-item2">
-                            <img src="./css.png" alt="CSS logo" className="tech-logo2" /> CSS
+                            <img src="./portfolio/css.png" alt="CSS logo" className="tech-logo2" /> CSS
                         </div>
                         <div className="tech-item2">
-                            <img src="./html.png" alt="HTML logo" className="tech-logo2" /> HTML
+                            <img src="./portfolio/html.png" alt="HTML logo" className="tech-logo2" /> HTML
                         </div>
                         <div className="tech-item2">
-                            <img src="./materialize-css.png" alt="Materialize CSS logo" className="tech-logo2" /> Materialize CSS
+                            <img src="./portfolio/materialize-css.png" alt="Materialize CSS logo" className="tech-logo2" /> Materialize CSS
                         </div>
                     </div>
 
@@ -81,7 +81,7 @@ export default function Projects() {
 
                 <div className="project-card">
                     <h2>Bookshelf Web App</h2>
-                    <img src="./bookshelf.png" alt="Bookshelf Web app snapshot" />
+                    <img src="./portfolio/bookshelf.png" alt="Bookshelf Web app snapshot" />
                     <p>
                         Created a book application for book enthusiasts to keep track of their favorite books and to create book reviews.
                         Implemented session-based user Google authentication for security and data management.
@@ -91,25 +91,25 @@ export default function Projects() {
 
                     <div className="tech-container">
                         <div className="tech-item2">
-                            <img src="./js.png" alt="JavaScript logo" className="tech-logo2" /> JavaScript
+                            <img src="./portfolio/js.png" alt="JavaScript logo" className="tech-logo2" /> JavaScript
                         </div>
                         <div className="tech-item2">
-                            <img src="./express.png" alt="Express logo" className="tech-logo2" /> Express
+                            <img src="./portfolio/express.png" alt="Express logo" className="tech-logo2" /> Express
                         </div>
                         <div className="tech-item2">
-                            <img src="./mongodb.png" alt="MongoDB logo" className="tech-logo2" /> MongoDB
+                            <img src="./portfolio/mongodb.png" alt="MongoDB logo" className="tech-logo2" /> MongoDB
                         </div>
                         <div className="tech-item2">
-                            <img src="./mongoose.png" alt="Mongoose logo" className="tech-logo2" /> Mongoose
+                            <img src="./portfolio/mongoose.png" alt="Mongoose logo" className="tech-logo2" /> Mongoose
                         </div>
                         <div className="tech-item2">
-                            <img src="./node3.png" alt="Node.js logo" className="tech-logo2" /> Node
+                            <img src="./portfolio/node3.png" alt="Node.js logo" className="tech-logo2" /> Node
                         </div>
                         <div className="tech-item2">
-                            <img src="./css.png" alt="CSS logo" className="tech-logo2" /> CSS
+                            <img src="./portfolio/css.png" alt="CSS logo" className="tech-logo2" /> CSS
                         </div>
                         <div className="tech-item2">
-                            <img src="./html.png" alt="HTML logo" className="tech-logo2" /> HTML
+                            <img src="./portfolio/html.png" alt="HTML logo" className="tech-logo2" /> HTML
                         </div>
                     </div>
 
@@ -124,7 +124,7 @@ export default function Projects() {
 
                 <div className="project-card">
                     <h2>Spaceman Game</h2>
-                    <img src="./spaceman-game.png" alt="spaceman game snapshot" />
+                    <img src="./portfolio/spaceman-game.png" alt="spaceman game snapshot" />
 
                     <p>
                         Developed a browser-based word-guessing game where the player tries to figure out a secret word within a certain number of attempts using vanilla JavaScript.
@@ -134,13 +134,13 @@ export default function Projects() {
 
                     <div className="tech-container">
                         <div className="tech-item2">
-                            <img src="./js.png" alt="JavaScript logo" className="projects-tech-logo" /> JavaScript
+                            <img src="./portfolio/js.png" alt="JavaScript logo" className="projects-tech-logo" /> JavaScript
                         </div>
                         <div className="tech-item2">
-                            <img src="./css.png" alt="CSS logo" className="projects-tech-logo" /> CSS
+                            <img src="./portfolio/css.png" alt="CSS logo" className="projects-tech-logo" /> CSS
                         </div>
                         <div className="tech-item2">
-                            <img src="./html.png" alt="HTML logo" className="projects-tech-logo" /> HTML
+                            <img src="./portfolio/html.png" alt="HTML logo" className="projects-tech-logo" /> HTML
                         </div>
                     </div>
 

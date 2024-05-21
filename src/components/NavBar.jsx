@@ -11,14 +11,14 @@ export default function NavBar() {
     return (
         <header className='home-header'>
             <div className="header-top">
-                <NavLink to="/" exact className='no-decor-links' activeClassName='active' onClick={toggleMenu}>
+                <NavLink to="/portfolio" exact className='no-decor-links' activeClassName='active' onClick={toggleMenu}>
                     <h1 className='h1-name-header'>
                         Ayda Gonzalez
                     </h1>
                 </NavLink>
 
                 <button className="menu-button" onClick={toggleMenu}>
-                    <img className="menu-button-icon" src="./menu-bar.png" alt="" />
+                    <img className="menu-button-icon" src="./portfolio/menu-bar.png" alt="" />
                 </button>
             </div>
             <nav className={`nav ${isOpen ? "open" : ""}`}>
