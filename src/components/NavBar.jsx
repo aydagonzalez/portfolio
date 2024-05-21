@@ -22,7 +22,7 @@ export default function NavBar() {
                 </button>
             </div>
             <nav className={`nav ${isOpen ? "open" : ""}`}>
-                <NavLink to="/" exact className='nav-link' activeClassName='active' onClick={toggleMenu}>Home</NavLink>
+                <NavLink to="/portfolio" exact className='nav-link' activeClassName='active' onClick={toggleMenu}>Home</NavLink>
                 <NavLink to="/projects" className='nav-link' activeClassName='active' onClick={toggleMenu}>Projects</NavLink>
                 {/* <NavLink to="/experience" className='nav-link' activeClassName='active' onClick={toggleMenu}>Experience</NavLink> */}
                 <NavLink to="/contact" className='nav-link' activeClassName='active' onClick={toggleMenu}>Contact</NavLink>
