@@ -1,28 +1,26 @@
-import React from 'react';
 
 export default function About() {
     return (
         <section className='about-section'>
             <div className="profile-container">
-                <img src="./profile-img.jpg" alt="Profile" className="profile-img" />
+                <img src="https://github.com/aydagonzalez15/portfolio/public/profile-img.jpg" alt="Profile" className="profile-img" />
 
                 <div className="tech-circle">
-                    <div className="tech-item"><img src="./public/logo512.png" alt="React logo" /></div>
-                    <div className="tech-item"><img src="./public/js.png" alt="JavaScript logo" /></div>
-                    <div className="tech-item"><img src="./public/python.png" alt="Python logo" /></div>
-                    <div className="tech-item"><img src="./public/express.png" alt="express logo" /></div>
-                    <div className="tech-item"><img src="./public/css.png" alt="CSS logo" /></div>
-                    <div className="tech-item"><img src="./public/html.png" alt="HTML logo" /></div>
-                    <div className="tech-item"><img src="./public/django-green.png" alt="Django logo" /></div>
-                    <div className="tech-item"><img src="./public/mongodb.png" alt="MongoDB logo" /></div>
-                    <div className="tech-item"><img src="./public/mongoose.png" alt="Mongoose logo" /></div>
-                    <div className="tech-item"><img src="./public/node3.png" alt="Node.js logo" /></div>
-                    {/* <div className="tech-item"><img src="./public/material-ui-icon.png" alt="Material-UI logo" /></div> */}
+                    <div className="tech-item"><img src="https://github.com/aydagonzalez15/portfolio/public/logo512.png" alt="React logo" /></div>
+                    <div className="tech-item"><img src="https://github.com/aydagonzalez15/portfolio/public/js.png" alt="JavaScript logo" /></div>
+                    <div className="tech-item"><img src="./python.png" alt="Python logo" /></div>
+                    <div className="tech-item"><img src="./express.png" alt="express logo" /></div>
+                    <div className="tech-item"><img src="./css.png" alt="CSS logo" /></div>
+                    <div className="tech-item"><img src="./html.png" alt="HTML logo" /></div>
+                    <div className="tech-item"><img src="./django-green.png" alt="Django logo" /></div>
+                    <div className="tech-item"><img src="./mongodb.png" alt="MongoDB logo" /></div>
+                    <div className="tech-item"><img src="./mongoose.png" alt="Mongoose logo" /></div>
+                    <div className="tech-item"><img src="./node3.png" alt="Node.js logo" /></div>
+                    {/* <div className="tech-item"><img src="./material-ui-icon.png" alt="Material-UI logo" /></div> */}
                 </div>
-                
             </div>
 
-            <h1 className='name-header'>Ayda Gonzalez TRIAL</h1>
+            <h1 className='name-header'>Ayda Gonzalez TRIA2</h1>
             <h4 className='about-description'>
                 Software Engineer with a robust scientific background and expertise in JavaScript,
                 Python, and full-stack development, blending methodical problem-solving with creative
