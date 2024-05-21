@@ -7,7 +7,7 @@ export default function About() {
 
                 <div className="tech-circle">
                     <div className="tech-item"><img src="./logo512.png" alt="React logo" /></div>
-                    <div className="tech-item"><img src="./portfolio/js.png" alt="JavaScript logo" /></div>
+                    <div className="tech-item"><img src="./js.png" alt="JavaScript logo" /></div>
                     <div className="tech-item"><img src="./python.png" alt="Python logo" /></div>
                     <div className="tech-item"><img src="./express.png" alt="express logo" /></div>
                     <div className="tech-item"><img src="./css.png" alt="CSS logo" /></div>
@@ -30,19 +30,19 @@ export default function About() {
 
             <div className='social-links'>
                 <a href="https://www.linkedin.com/in/aydagonzalez15/">
-                    <img src="/LI-In-Bug.png" alt="LinkedIn" className='social-icon' />
+                    <img src="./LI-In-Bug.png" alt="LinkedIn" className='social-icon' />
                 </a>
                 <a href="https://github.com/aydagonzalez15">
-                    <img src="/github-mark.png" alt="GitHub" className='social-icon' />
+                    <img src="./github-mark.png" alt="GitHub" className='social-icon' />
                 </a>
                 <a href="mailto:aydagonzalezDev@gmail.com">
-                    <img src="/mail-icon.png" alt="Email" className='social-icon' />
+                    <img src="./mail-icon.png" alt="Email" className='social-icon' />
                 </a>
 
             </div>
             <div className="resume-download-container">
             <a href="./resume.pdf" target="_blank" className='no-decor-links resume-link'>
-                <img src="/download-icon.png" alt="Download Resume" className='download-icon' />
+                <img src="./download-icon.png" alt="Download Resume" className='download-icon' />
                 <span>Resume</span>
             </a>
         </div>

@@ -11,7 +11,7 @@ export default function NavBar() {
     return (
         <header className='home-header'>
             <div className="header-top">
-                <NavLink to="/portfolio" exact className='no-decor-links' activeClassName='active' onClick={toggleMenu}>
+                <NavLink to="/portfolio/" exact className='no-decor-links' activeClassName='active' onClick={toggleMenu}>
                     <h1 className='h1-name-header'>
                         Ayda Gonzalez
                     </h1>
@@ -22,7 +22,7 @@ export default function NavBar() {
                 </button>
             </div>
             <nav className={`nav ${isOpen ? "open" : ""}`}>
-                <NavLink to="/portfolio" exact className='nav-link' activeClassName='active' onClick={toggleMenu}>Home</NavLink>
+                <NavLink to="/portfolio/" exact className='nav-link' activeClassName='active' onClick={toggleMenu}>Home</NavLink>
                 <NavLink to="/projects" className='nav-link' activeClassName='active' onClick={toggleMenu}>Projects</NavLink>
                 {/* <NavLink to="/experience" className='nav-link' activeClassName='active' onClick={toggleMenu}>Experience</NavLink> */}
                 <NavLink to="/contact" className='nav-link' activeClassName='active' onClick={toggleMenu}>Contact</NavLink>
