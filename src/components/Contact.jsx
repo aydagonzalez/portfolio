@@ -3,8 +3,9 @@ import React from 'react';
 
 export default function Contact() {
     return (
-        <section>
+        <>
             <h1 className='name-header'>Looking Forward to Connecting</h1>
+        <section>
 
 
 
@@ -25,6 +26,7 @@ export default function Contact() {
             </div>
 
         </section>
+        </>
     );
 }
 

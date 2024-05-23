@@ -12,9 +12,9 @@ export default function Projects() {
 
 
                     <div className="tech-container">
-                    <div className="tech-item2">
-                <img src="./portfolio/logo512.png" alt="React logo" className="tech-logo2" /> React
-            </div>
+                        <div className="tech-item2">
+                            <img src="./portfolio/logo512.png" alt="React logo" className="tech-logo2" /> React
+                        </div>
                         <div className="tech-item2">
                             <img src="./portfolio/js.png" alt="JavaScript logo" className="tech-logo2" /> JavaScript
                         </div>

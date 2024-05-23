@@ -10,7 +10,7 @@
   --transition-speed: 0.3s;
 }
 
-/* ---------------------NAV BAR----------------- */
+/* ---------------------MENU BUTTON NAV BAR----------------- */
 
 .menu-button {
   display: none;
@@ -35,7 +35,7 @@ width: 40px;
   color: black;
   display: block;
   width: 100%;
-}
+} 
 
 
 
@@ -126,11 +126,11 @@ width: 40px;
 
   header {
     display: flex;
-    height: 2rem;
+    height: 1rem;
     background-color: var(--primary-bg-color);
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
 
@@ -156,7 +156,7 @@ width: 40px;
 
   .h1-name-header {
     margin: 0;
-    padding: 10px;
+    /* padding: 10px; */
     color: #666;
   }
 
@@ -164,20 +164,16 @@ width: 40px;
     text-decoration: none;
     color: black;
   }
-
-
 }
 
 
-
-
-/* ---------------------PROGILE IMAGE----------------- */
+/* ---------------------PROGILE IMAGE LANDING PAGE----------------- */
 
 .profile-container {
   position: relative;
-  width: 500px;
-  height: 500px;
-  margin: 4rem;
+  width: 400px;
+  height: 400px;
+  margin: 5rem;
 }
 
 .profile-img {
@@ -199,9 +195,9 @@ width: 40px;
 
 .tech-item {
   position: absolute;
-  width: 70px;
+  width: 60px;
   /* Adjust size of icons */
-  height: 70px;
+  height: 60px;
   top: 50%;
   left: 50%;
   transform-style: preserve-3d;
@@ -325,13 +321,13 @@ width: 40px;
   border-radius: 5px;
 }
 
-.name-header {
-  font-size: 2.5em;
+/* .name-header {
+  font-size: 5em;
   color: #333;
   font-weight: bold;
   text-align: center;
   margin-bottom: 0.5em;
-}
+} */
 
 .about-description {
   font-size: 1.2em;
@@ -352,7 +348,7 @@ width: 40px;
 }
 
 .name-header {
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   color: transparent;
@@ -428,11 +424,12 @@ width: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 3rem;
+  /* align-items: flex-start; */
+  gap: 2rem;
   align-items: stretch;
   /* background-color: #0056b3; */
   padding: 5rem;
+  padding-top: 1rem;
 
 }
 
@@ -449,6 +446,7 @@ width: 40px;
   /* justify-content: space-even; */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   min-height: 400px;
+  max-width: 590px;
 }
 
 .project-card img {
@@ -534,7 +532,7 @@ width: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 
@@ -576,9 +574,7 @@ width: 40px;
 .resume-download-container {
   display: flex;
   justify-content: center;
-  /* Center the link horizontally */
   margin-top: 20px;
-  /* Add some space from the content above */
 }
 
 .resume-link {
