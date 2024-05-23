@@ -16,7 +16,7 @@ export default function Contact() {
                 </a>
                 <a href="https://github.com/aydagonzalez">
                     <img src="./portfolio/github-mark.png" alt="GitHub" className='social-icon-contact' />
-                    github.com/aydagonzalez15
+                    github.com/aydagonzalez
                 </a>
                 <a href="mailto:aydagonzalezDev@gmail.com">
                     <img src="./portfolio/mail-icon.png" alt="Email" className='social-icon-contact' /> 

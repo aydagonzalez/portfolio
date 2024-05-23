@@ -1,3 +1,4 @@
+import Projects from "./Projects";
 
 export default function About() {
     return (
@@ -16,7 +17,6 @@ export default function About() {
                     <div className="tech-item"><img src="./mongodb.png" alt="MongoDB logo" /></div>
                     <div className="tech-item"><img src="./mongoose.png" alt="Mongoose logo" /></div>
                     <div className="tech-item"><img src="./node3.png" alt="Node.js logo" /></div>
-                    {/* <div className="tech-item"><img src="./material-ui-icon.png" alt="Material-UI logo" /></div> */}
                 </div>
             </div>
 
@@ -27,6 +27,9 @@ export default function About() {
                 solutions. Eager to leverage technical skills in dynamic engineering roles to enhance
                 user experiences and empower communities through innovative technology.
             </h4>
+
+
+            {/* <Projects /> */}
 
             <div className='social-links'>
                 <a href="https://www.linkedin.com/in/aydagonzalez15/">
