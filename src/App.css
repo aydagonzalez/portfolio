@@ -1,5 +1,13 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically within the container */
+  /* align-items: center; Centers content horizontally within the container */
+  text-align: center; /* Ensures that text within the children elements is centered */
+  max-width: 120rem; /* Sets maximum width of the container */
+  width: 100%; /* Ensures it takes full width of its parent up to its max-width */
+  margin: 0 auto; /* Horizontally centers the .App container itself in its parent */
+  /* height: 100vh; */
 }
 
 :root {
