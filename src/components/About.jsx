@@ -32,7 +32,7 @@ export default function About() {
                 <a href="https://www.linkedin.com/in/aydagonzalez15/">
                     <img src="./LI-In-Bug.png" alt="LinkedIn" className='social-icon' />
                 </a>
-                <a href="https://github.com/aydagonzalez15">
+                <a href="https://github.com/aydagonzalez">
                     <img src="./github-mark.png" alt="GitHub" className='social-icon' />
                 </a>
                 <a href="mailto:aydagonzalezDev@gmail.com">

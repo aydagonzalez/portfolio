@@ -14,7 +14,7 @@ export default function Contact() {
                     <img src="./portfolio/LI-In-Bug.png" alt="LinkedIn" className='social-icon-contact' />
                     linkedin.com/in/aydagonzalez15
                 </a>
-                <a href="https://github.com/aydagonzalez15">
+                <a href="https://github.com/aydagonzalez">
                     <img src="./portfolio/github-mark.png" alt="GitHub" className='social-icon-contact' />
                     github.com/aydagonzalez15
                 </a>
