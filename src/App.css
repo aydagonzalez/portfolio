@@ -85,7 +85,7 @@
     background-color: var(--active-menu-btn-bg-color);
   }
 
-  .h1-name-header {
+  .h1-nav-name-header {
     margin: 0;
     padding: 10px;
     color: #666;
@@ -286,7 +286,7 @@
     background-color: var(--active-menu-btn-bg-color);
   }
 
-  .h1-name-header {
+  .h1-nav-name-header {
     margin: 0;
     /* padding: 10px; */
     color: #666;
@@ -394,6 +394,8 @@
   }
 
 
+  
+
   /* ---------------------About page Name header BIGGER screens----------------- */
 
   .name-header {
@@ -414,7 +416,6 @@
   }
 
 }
-
 
 
 
@@ -441,10 +442,7 @@
   align-content: center;
 }
 
-.img-size {
-  width: 5rem;
-  /* background-color: #61dafb; */
-}
+
 
 .download-icon {
   width: 40px;
@@ -477,13 +475,6 @@
   border-radius: 5px;
 }
 
-/* .name-header {
-  font-size: 5em;
-  color: #333;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 0.5em;
-} */
 
 .about-description {
   font-size: 1.2em;
