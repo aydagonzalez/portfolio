@@ -227,6 +227,16 @@
     padding-top: -3rem;
   }
 
+
+.about-description {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 10%;
+  margin-bottom: 2rem;
+}
+
 }
 
 

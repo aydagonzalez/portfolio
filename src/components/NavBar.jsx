@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom"; // Import NavLink
+import WelcomePlane from './WelcomePlane.css';
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,17 +11,22 @@ export default function NavBar() {
 
     return (
         <header className='home-header'>
+
             <div className="header-top">
                 <NavLink to="/portfolio/" exact className='no-decor-links' activeClassName='active' onClick={toggleMenu}>
                     <h1 className='h1-nav-name-header'>
                         Ayda Gonzalez
                     </h1>
                 </NavLink>
-
                 <button className="menu-button" onClick={toggleMenu}>
                     <img className="menu-button-icon" src="./menu-bar.png" alt="menu" />
                 </button>
             </div>
+            {/* <div className="plane-container">
+                <div className="plane">
+                    <span className="plane-message">Hi, welcome</span>
+                </div>
+            </div> */}
             <nav className={`nav ${isOpen ? "open" : ""}`}>
                 <NavLink to="/portfolio/" exact className='nav-link' activeClassName='active' onClick={toggleMenu}>Home</NavLink>
                 <NavLink to="/projects" className='nav-link' activeClassName='active' onClick={toggleMenu}>Projects</NavLink>
